@@ -1,0 +1,42 @@
+#board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.letter-box {
+border: 2px solid rgb(120,124,127);
+border-radius: 6px;
+margin: 2px;
+font-weight: 700;
+height: 5rem;
+width: 5rem;
+font-size: 3rem;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+display: flex;
+}
+
+.filled-box {
+border: 2px solid black;
+}
+
+.letter-row {
+display: flex;
+}
+
+#card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+#guessButton {
+  margin-top: 5px;
+}
+
+#alert {
+  text-align: center;
+}
